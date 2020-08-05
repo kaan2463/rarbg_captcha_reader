@@ -7,9 +7,6 @@ Automatize captcha reading for the best known torrent site RarBG :)
 #And little implementation for binding c++ and java native interface.
 #preview video is here too, to see how it works!
 
-all codes could be in javascript language but it is a experimental project for hobby :)
-
-
 
 
 
@@ -24,4 +21,4 @@ g++ -shared -o libhello.so hello.cpp -fPIC -I/usr/lib/java/jdk-12.0.2/include -I
 # run java program with specified library in jni // -Djava.library.path=`pwd` specifies to libary location that created  
 java -Djava.library.path=`pwd` Hello
 
-##All codes could be written in javascript but it is made for experimental hobby :) 
+## Pure javascript version is also added!
