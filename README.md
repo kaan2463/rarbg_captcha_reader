@@ -22,3 +22,4 @@ g++ -shared -o libhello.so hello.cpp -fPIC -I/usr/lib/java/jdk-12.0.2/include -I
 java -Djava.library.path=`pwd` Hello
 
 ## Pure javascript version is also added!
+It is very cool!
